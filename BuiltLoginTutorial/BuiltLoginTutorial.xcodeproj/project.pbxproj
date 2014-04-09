@@ -125,7 +125,7 @@
 		7DA603B118BDC24000ACB80D = {
 			isa = PBXGroup;
 			children = (
-				7DA603C318BDC24000ACB80D /* FBLogInDemo */,
+				7DA603C318BDC24000ACB80D /* BuiltLoginTutorial */,
 				7DA603DC18BDC24000ACB80D /* FBLogInDemoTests */,
 				7DA603BC18BDC24000ACB80D /* Frameworks */,
 				7DA603BB18BDC24000ACB80D /* Products */,
@@ -164,7 +164,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7DA603C318BDC24000ACB80D /* FBLogInDemo */ = {
+		7DA603C318BDC24000ACB80D /* BuiltLoginTutorial */ = {
 			isa = PBXGroup;
 			children = (
 				7DA603CC18BDC24000ACB80D /* AppDelegate.h */,
@@ -181,6 +181,7 @@
 				7DA5266F18E4503C00F4B41E /* SocialViewController.h */,
 				7DA5267018E4503C00F4B41E /* SocialViewController.m */,
 			);
+			name = BuiltLoginTutorial;
 			path = FBLogInDemo;
 			sourceTree = "<group>";
 		};
