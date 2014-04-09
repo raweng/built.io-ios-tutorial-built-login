@@ -50,20 +50,20 @@
 /* Begin PBXFileReference section */
 		7DA5266F18E4503C00F4B41E /* SocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialViewController.h; sourceTree = "<group>"; };
 		7DA5267018E4503C00F4B41E /* SocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialViewController.m; sourceTree = "<group>"; };
-		7DA603BA18BDC24000ACB80D /* FBLogInDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBLogInDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA603BA18BDC24000ACB80D /* BuiltLoginTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuiltLoginTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA603BD18BDC24000ACB80D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7DA603BF18BDC24000ACB80D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7DA603C118BDC24000ACB80D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		7DA603C518BDC24000ACB80D /* FBLogInDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBLogInDemo-Info.plist"; sourceTree = "<group>"; };
+		7DA603C518BDC24000ACB80D /* BuiltLoginTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuiltLoginTutorial-Info.plist"; sourceTree = "<group>"; };
 		7DA603C718BDC24000ACB80D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7DA603C918BDC24000ACB80D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7DA603CB18BDC24000ACB80D /* FBLogInDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBLogInDemo-Prefix.pch"; sourceTree = "<group>"; };
+		7DA603CB18BDC24000ACB80D /* BuiltLoginTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuiltLoginTutorial-Prefix.pch"; sourceTree = "<group>"; };
 		7DA603CC18BDC24000ACB80D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7DA603CD18BDC24000ACB80D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7DA603CF18BDC24000ACB80D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7DA603D518BDC24000ACB80D /* FBLogInDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBLogInDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA603D518BDC24000ACB80D /* BuiltLoginTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuiltLoginTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA603D618BDC24000ACB80D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		7DA603DE18BDC24000ACB80D /* FBLogInDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBLogInDemoTests-Info.plist"; sourceTree = "<group>"; };
+		7DA603DE18BDC24000ACB80D /* BuiltLoginTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuiltLoginTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		7DA603E018BDC24000ACB80D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7DA603E218BDC24000ACB80D /* FBLogInDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBLogInDemoTests.m; sourceTree = "<group>"; };
 		7DA603EC18BDC27E00ACB80D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -135,8 +135,8 @@
 		7DA603BB18BDC24000ACB80D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7DA603BA18BDC24000ACB80D /* FBLogInDemo.app */,
-				7DA603D518BDC24000ACB80D /* FBLogInDemoTests.xctest */,
+				7DA603BA18BDC24000ACB80D /* BuiltLoginTutorial.app */,
+				7DA603D518BDC24000ACB80D /* BuiltLoginTutorialTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,10 +187,10 @@
 		7DA603C418BDC24000ACB80D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7DA603C518BDC24000ACB80D /* FBLogInDemo-Info.plist */,
+				7DA603C518BDC24000ACB80D /* BuiltLoginTutorial-Info.plist */,
 				7DA603C618BDC24000ACB80D /* InfoPlist.strings */,
 				7DA603C918BDC24000ACB80D /* main.m */,
-				7DA603CB18BDC24000ACB80D /* FBLogInDemo-Prefix.pch */,
+				7DA603CB18BDC24000ACB80D /* BuiltLoginTutorial-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 		7DA603DD18BDC24000ACB80D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7DA603DE18BDC24000ACB80D /* FBLogInDemoTests-Info.plist */,
+				7DA603DE18BDC24000ACB80D /* BuiltLoginTutorialTests-Info.plist */,
 				7DA603DF18BDC24000ACB80D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -216,9 +216,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7DA603B918BDC24000ACB80D /* FBLogInDemo */ = {
+		7DA603B918BDC24000ACB80D /* BuiltLoginTutorial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7DA603E618BDC24000ACB80D /* Build configuration list for PBXNativeTarget "FBLogInDemo" */;
+			buildConfigurationList = 7DA603E618BDC24000ACB80D /* Build configuration list for PBXNativeTarget "BuiltLoginTutorial" */;
 			buildPhases = (
 				7DA603B618BDC24000ACB80D /* Sources */,
 				7DA603B718BDC24000ACB80D /* Frameworks */,
@@ -228,14 +228,14 @@
 			);
 			dependencies = (
 			);
-			name = FBLogInDemo;
+			name = BuiltLoginTutorial;
 			productName = FBLogInDemo;
-			productReference = 7DA603BA18BDC24000ACB80D /* FBLogInDemo.app */;
+			productReference = 7DA603BA18BDC24000ACB80D /* BuiltLoginTutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7DA603D418BDC24000ACB80D /* FBLogInDemoTests */ = {
+		7DA603D418BDC24000ACB80D /* BuiltLoginTutorialTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7DA603E918BDC24000ACB80D /* Build configuration list for PBXNativeTarget "FBLogInDemoTests" */;
+			buildConfigurationList = 7DA603E918BDC24000ACB80D /* Build configuration list for PBXNativeTarget "BuiltLoginTutorialTests" */;
 			buildPhases = (
 				7DA603D118BDC24000ACB80D /* Sources */,
 				7DA603D218BDC24000ACB80D /* Frameworks */,
@@ -246,9 +246,9 @@
 			dependencies = (
 				7DA603DB18BDC24000ACB80D /* PBXTargetDependency */,
 			);
-			name = FBLogInDemoTests;
+			name = BuiltLoginTutorialTests;
 			productName = FBLogInDemoTests;
-			productReference = 7DA603D518BDC24000ACB80D /* FBLogInDemoTests.xctest */;
+			productReference = 7DA603D518BDC24000ACB80D /* BuiltLoginTutorialTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -265,7 +265,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7DA603B518BDC24000ACB80D /* Build configuration list for PBXProject "FBLogInDemo" */;
+			buildConfigurationList = 7DA603B518BDC24000ACB80D /* Build configuration list for PBXProject "BuiltLoginTutorial" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -277,8 +277,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7DA603B918BDC24000ACB80D /* FBLogInDemo */,
-				7DA603D418BDC24000ACB80D /* FBLogInDemoTests */,
+				7DA603B918BDC24000ACB80D /* BuiltLoginTutorial */,
+				7DA603D418BDC24000ACB80D /* BuiltLoginTutorialTests */,
 			);
 		};
 /* End PBXProject section */
@@ -331,7 +331,7 @@
 /* Begin PBXTargetDependency section */
 		7DA603DB18BDC24000ACB80D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7DA603B918BDC24000ACB80D /* FBLogInDemo */;
+			target = 7DA603B918BDC24000ACB80D /* BuiltLoginTutorial */;
 			targetProxy = 7DA603DA18BDC24000ACB80D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -444,9 +444,9 @@
 					/Users/viresh/Desktop/raw_project/Built.io/FBLogInDemo,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FBLogInDemo/FBLogInDemo-Prefix.pch";
-				INFOPLIST_FILE = "FBLogInDemo/FBLogInDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "FBLogInDemo/BuiltLoginTutorial-Prefix.pch";
+				INFOPLIST_FILE = "FBLogInDemo/BuiltLoginTutorial-Info.plist";
+				PRODUCT_NAME = BuiltLoginTutorial;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -461,9 +461,9 @@
 					/Users/viresh/Desktop/raw_project/Built.io/FBLogInDemo,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FBLogInDemo/FBLogInDemo-Prefix.pch";
-				INFOPLIST_FILE = "FBLogInDemo/FBLogInDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "FBLogInDemo/BuiltLoginTutorial-Prefix.pch";
+				INFOPLIST_FILE = "FBLogInDemo/BuiltLoginTutorial-Info.plist";
+				PRODUCT_NAME = BuiltLoginTutorial;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -484,8 +484,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "FBLogInDemoTests/FBLogInDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "FBLogInDemoTests/BuiltLoginTutorialTests-Info.plist";
+				PRODUCT_NAME = BuiltLoginTutorialTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -503,8 +503,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FBLogInDemo/FBLogInDemo-Prefix.pch";
-				INFOPLIST_FILE = "FBLogInDemoTests/FBLogInDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "FBLogInDemoTests/BuiltLoginTutorialTests-Info.plist";
+				PRODUCT_NAME = BuiltLoginTutorialTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -513,7 +513,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7DA603B518BDC24000ACB80D /* Build configuration list for PBXProject "FBLogInDemo" */ = {
+		7DA603B518BDC24000ACB80D /* Build configuration list for PBXProject "BuiltLoginTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7DA603E418BDC24000ACB80D /* Debug */,
@@ -522,7 +522,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7DA603E618BDC24000ACB80D /* Build configuration list for PBXNativeTarget "FBLogInDemo" */ = {
+		7DA603E618BDC24000ACB80D /* Build configuration list for PBXNativeTarget "BuiltLoginTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7DA603E718BDC24000ACB80D /* Debug */,
@@ -531,7 +531,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7DA603E918BDC24000ACB80D /* Build configuration list for PBXNativeTarget "FBLogInDemoTests" */ = {
+		7DA603E918BDC24000ACB80D /* Build configuration list for PBXNativeTarget "BuiltLoginTutorialTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7DA603EA18BDC24000ACB80D /* Debug */,
