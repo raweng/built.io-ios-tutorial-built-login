@@ -103,14 +103,11 @@
         loginView.delegate = self;
         
         // Selection of UI feilds needs to be displayed on Login view
-        loginView.fields = BuiltLoginFieldSignUp|BuiltLoginFieldUsernameAndPassword|BuiltLoginFieldLogin|BuiltLoginFieldDismiss;
+        loginView.fields = BuiltLoginFieldSignUp|BuiltLoginFieldUsernameAndPassword|BuiltLoginFieldLogin;
         
 //        loginView.fields =  BuiltLoginFieldTwitter;
         [loginView.dismissButton addTarget:loginView.dismissButton action:@selector(cancelTapped) forControlEvents:UIControlEventTouchDown];
 
-        // Set delegates  for twitter and google sign in
-        [loginView setTwitterAppSettingDelegate:self];
-        [loginView setGoogleAppSettingDelegate:self];
         loginView.shouldHandleLoadingHUD = YES;
         [[AppDelegate sharedAppDelegate].navigationController pushViewController:loginView animated:YES];
     }

@@ -7,7 +7,7 @@
 #import "DetailViewController.h"
 #import "AppDelegate.h"
 #import <BuiltIO/BuiltIO.h>
-#define LABEL_WIDTH 200
+#define LABEL_WIDTH 300
 #define LABEL_HEIGHT 50
 
 @interface DetailViewController (){
@@ -41,16 +41,16 @@
 
 -(void)initialiseView:(BuiltUser*)user{
     
-    userNameTitle = [[UILabel alloc] initWithFrame:CGRectMake(5, 100, LABEL_WIDTH, LABEL_HEIGHT)];
+    userNameTitle = [[UILabel alloc] initWithFrame:CGRectMake(15, 100, LABEL_WIDTH, LABEL_HEIGHT)];
     [userNameTitle setText:@"Logged User :"];
-    [userNameTitle setTextAlignment:NSTextAlignmentRight];
+    [userNameTitle setTextAlignment:NSTextAlignmentCenter];
     [userNameTitle setBackgroundColor:[UIColor clearColor]];
     [userNameTitle setTextColor:[UIColor blackColor]];
     [self.view addSubview:userNameTitle];
     
     userName = [[UILabel alloc] init];
     [userName setText:[NSString stringWithFormat:@"%@ %@",user.firstName,user.lastName]];
-    [userName setTextAlignment:NSTextAlignmentRight];
+    [userName setTextAlignment:NSTextAlignmentCenter];
     [userName setBackgroundColor:[UIColor clearColor]];
     [userName setTextColor:[UIColor blackColor]];
     [userName setFrame:CGRectMake(15, 180, LABEL_WIDTH,  LABEL_HEIGHT)];
