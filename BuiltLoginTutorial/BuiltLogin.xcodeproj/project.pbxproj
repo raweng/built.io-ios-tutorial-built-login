@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7DA5267118E4503C00F4B41E /* SocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5267018E4503C00F4B41E /* SocialViewController.m */; };
+		429431EA18F7FF4A0077E75D /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 429431E718F7FF4A0077E75D /* BuiltIO.bundle */; };
+		429431EB18F7FF4A0077E75D /* BuiltIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429431E818F7FF4A0077E75D /* BuiltIO.framework */; };
+		429431EF18F7FFC80077E75D /* BuiltLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429431EE18F7FFC80077E75D /* BuiltLoginController.m */; };
 		7DA603BE18BDC24000ACB80D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA603BD18BDC24000ACB80D /* Foundation.framework */; };
 		7DA603C018BDC24000ACB80D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA603BF18BDC24000ACB80D /* CoreGraphics.framework */; };
 		7DA603C218BDC24000ACB80D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA603C118BDC24000ACB80D /* UIKit.framework */; };
@@ -29,12 +31,6 @@
 		7DA603F918BDC2C100ACB80D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA603F818BDC2C100ACB80D /* CoreTelephony.framework */; };
 		7DA603FB18BDC2C900ACB80D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA603FA18BDC2C900ACB80D /* Security.framework */; };
 		7DA603FD18BDC2D400ACB80D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA603FC18BDC2D400ACB80D /* QuartzCore.framework */; };
-		7DA6040018BDC31000ACB80D /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7DA603FE18BDC31000ACB80D /* BuiltIO.bundle */; };
-		7DA6040118BDC31000ACB80D /* BuiltIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA603FF18BDC31000ACB80D /* BuiltIO.framework */; };
-		7DA6040318BDC4F400ACB80D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA6040218BDC4F400ACB80D /* FacebookSDK.framework */; };
-		7DA6040718BDD18100ACB80D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6040618BDD18100ACB80D /* LoginViewController.m */; };
-		7DA6040A18BE0C6E00ACB80D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6040918BE0C6E00ACB80D /* DetailViewController.m */; };
-		7DABD24F18BF278500BAE9ED /* BuiltLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DABD24E18BF278500BAE9ED /* BuiltLoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7DA5266F18E4503C00F4B41E /* SocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialViewController.h; sourceTree = "<group>"; };
-		7DA5267018E4503C00F4B41E /* SocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialViewController.m; sourceTree = "<group>"; };
+		429431E718F7FF4A0077E75D /* BuiltIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BuiltIO.bundle; sourceTree = "<group>"; };
+		429431E818F7FF4A0077E75D /* BuiltIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuiltIO.framework; sourceTree = "<group>"; };
+		429431ED18F7FFC80077E75D /* BuiltLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuiltLoginController.h; sourceTree = "<group>"; };
+		429431EE18F7FFC80077E75D /* BuiltLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuiltLoginController.m; sourceTree = "<group>"; };
 		7DA603BA18BDC24000ACB80D /* BuiltLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuiltLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA603BD18BDC24000ACB80D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7DA603BF18BDC24000ACB80D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -75,16 +73,7 @@
 		7DA603F818BDC2C100ACB80D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		7DA603FA18BDC2C900ACB80D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		7DA603FC18BDC2D400ACB80D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		7DA603FE18BDC31000ACB80D /* BuiltIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BuiltIO.bundle; sourceTree = "<group>"; };
-		7DA603FF18BDC31000ACB80D /* BuiltIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuiltIO.framework; sourceTree = "<group>"; };
-		7DA6040218BDC4F400ACB80D /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		7DA6040418BDC82900ACB80D /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
-		7DA6040518BDD18100ACB80D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		7DA6040618BDD18100ACB80D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		7DA6040818BE0C6E00ACB80D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		7DA6040918BE0C6E00ACB80D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		7DABD24D18BF278500BAE9ED /* BuiltLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuiltLoginViewController.h; sourceTree = "<group>"; };
-		7DABD24E18BF278500BAE9ED /* BuiltLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuiltLoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +89,11 @@
 				7DA603F718BDC2B600ACB80D /* CFNetwork.framework in Frameworks */,
 				7DA603F518BDC2AD00ACB80D /* CoreLocation.framework in Frameworks */,
 				7DA603F118BDC29C00ACB80D /* Social.framework in Frameworks */,
-				7DA6040118BDC31000ACB80D /* BuiltIO.framework in Frameworks */,
+				429431EB18F7FF4A0077E75D /* BuiltIO.framework in Frameworks */,
 				7DA603EF18BDC28C00ACB80D /* Twitter.framework in Frameworks */,
 				7DA603ED18BDC27E00ACB80D /* SystemConfiguration.framework in Frameworks */,
 				7DA603C218BDC24000ACB80D /* UIKit.framework in Frameworks */,
 				7DA603BE18BDC24000ACB80D /* Foundation.framework in Frameworks */,
-				7DA6040318BDC4F400ACB80D /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,9 +132,8 @@
 		7DA603BC18BDC24000ACB80D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7DA6040218BDC4F400ACB80D /* FacebookSDK.framework */,
-				7DA603FE18BDC31000ACB80D /* BuiltIO.bundle */,
-				7DA603FF18BDC31000ACB80D /* BuiltIO.framework */,
+				429431E718F7FF4A0077E75D /* BuiltIO.bundle */,
+				429431E818F7FF4A0077E75D /* BuiltIO.framework */,
 				7DA603FC18BDC2D400ACB80D /* QuartzCore.framework */,
 				7DA603FA18BDC2C900ACB80D /* Security.framework */,
 				7DA603F818BDC2C100ACB80D /* CoreTelephony.framework */,
@@ -169,17 +156,11 @@
 			children = (
 				7DA603CC18BDC24000ACB80D /* AppDelegate.h */,
 				7DA603CD18BDC24000ACB80D /* AppDelegate.m */,
-				7DA6040518BDD18100ACB80D /* LoginViewController.h */,
-				7DA6040618BDD18100ACB80D /* LoginViewController.m */,
-				7DA6040818BE0C6E00ACB80D /* DetailViewController.h */,
-				7DA6040918BE0C6E00ACB80D /* DetailViewController.m */,
-				7DABD24D18BF278500BAE9ED /* BuiltLoginViewController.h */,
-				7DABD24E18BF278500BAE9ED /* BuiltLoginViewController.m */,
 				7DA603CF18BDC24000ACB80D /* Images.xcassets */,
 				7DA603C418BDC24000ACB80D /* Supporting Files */,
 				7DA6040418BDC82900ACB80D /* Constant.h */,
-				7DA5266F18E4503C00F4B41E /* SocialViewController.h */,
-				7DA5267018E4503C00F4B41E /* SocialViewController.m */,
+				429431ED18F7FFC80077E75D /* BuiltLoginController.h */,
+				429431EE18F7FFC80077E75D /* BuiltLoginController.m */,
 			);
 			name = BuiltLoginTutorial;
 			path = FBLogInDemo;
@@ -289,7 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DA6040018BDC31000ACB80D /* BuiltIO.bundle in Resources */,
+				429431EA18F7FF4A0077E75D /* BuiltIO.bundle in Resources */,
 				7DA603C818BDC24000ACB80D /* InfoPlist.strings in Resources */,
 				7DA603D018BDC24000ACB80D /* Images.xcassets in Resources */,
 			);
@@ -312,10 +293,7 @@
 			files = (
 				7DA603CE18BDC24000ACB80D /* AppDelegate.m in Sources */,
 				7DA603CA18BDC24000ACB80D /* main.m in Sources */,
-				7DA6040718BDD18100ACB80D /* LoginViewController.m in Sources */,
-				7DA5267118E4503C00F4B41E /* SocialViewController.m in Sources */,
-				7DA6040A18BE0C6E00ACB80D /* DetailViewController.m in Sources */,
-				7DABD24F18BF278500BAE9ED /* BuiltLoginViewController.m in Sources */,
+				429431EF18F7FFC80077E75D /* BuiltLoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +421,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/viresh/Desktop/raw_project/Built.io/FBLogInDemo,
+					"/Users/sameer/Documents/iOS\\ Projects/builtIO\\ tutorial\\ github/github\\ built/built.io-ios-tutorial-built-login/BuiltLoginTutorial",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FBLogInDemo/BuiltLogin-Prefix.pch";
@@ -460,6 +439,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/viresh/Desktop/raw_project/Built.io/FBLogInDemo,
+					"/Users/sameer/Documents/iOS\\ Projects/builtIO\\ tutorial\\ github/github\\ built/built.io-ios-tutorial-built-login/BuiltLoginTutorial",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FBLogInDemo/BuiltLogin-Prefix.pch";
