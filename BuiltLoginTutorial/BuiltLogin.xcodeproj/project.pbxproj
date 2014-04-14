@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		422EFDAD18F969D900E389D4 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422EFDAC18F969D900E389D4 /* HomeViewController.m */; };
+		424FF7B718FBA85100B3046C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424FF7B618FBA85100B3046C /* LoginViewController.m */; };
+		424FF7B918FBBD6400B3046C /* builtio-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 424FF7B818FBBD6400B3046C /* builtio-logo.png */; };
 		429431EA18F7FF4A0077E75D /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 429431E718F7FF4A0077E75D /* BuiltIO.bundle */; };
 		429431EB18F7FF4A0077E75D /* BuiltIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429431E818F7FF4A0077E75D /* BuiltIO.framework */; };
-		429431EF18F7FFC80077E75D /* BuiltLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429431EE18F7FFC80077E75D /* BuiltLoginController.m */; };
 		7DA603BE18BDC24000ACB80D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA603BD18BDC24000ACB80D /* Foundation.framework */; };
 		7DA603C018BDC24000ACB80D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA603BF18BDC24000ACB80D /* CoreGraphics.framework */; };
 		7DA603C218BDC24000ACB80D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA603C118BDC24000ACB80D /* UIKit.framework */; };
@@ -44,10 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		422EFDAB18F969D900E389D4 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		422EFDAC18F969D900E389D4 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		424FF7B518FBA85100B3046C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		424FF7B618FBA85100B3046C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		424FF7B818FBBD6400B3046C /* builtio-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "builtio-logo.png"; sourceTree = "<group>"; };
 		429431E718F7FF4A0077E75D /* BuiltIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BuiltIO.bundle; sourceTree = "<group>"; };
 		429431E818F7FF4A0077E75D /* BuiltIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuiltIO.framework; sourceTree = "<group>"; };
-		429431ED18F7FFC80077E75D /* BuiltLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuiltLoginController.h; sourceTree = "<group>"; };
-		429431EE18F7FFC80077E75D /* BuiltLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuiltLoginController.m; sourceTree = "<group>"; };
 		7DA603BA18BDC24000ACB80D /* BuiltLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuiltLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA603BD18BDC24000ACB80D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7DA603BF18BDC24000ACB80D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -159,8 +164,10 @@
 				7DA603CF18BDC24000ACB80D /* Images.xcassets */,
 				7DA603C418BDC24000ACB80D /* Supporting Files */,
 				7DA6040418BDC82900ACB80D /* Constant.h */,
-				429431ED18F7FFC80077E75D /* BuiltLoginController.h */,
-				429431EE18F7FFC80077E75D /* BuiltLoginController.m */,
+				422EFDAB18F969D900E389D4 /* HomeViewController.h */,
+				422EFDAC18F969D900E389D4 /* HomeViewController.m */,
+				424FF7B518FBA85100B3046C /* LoginViewController.h */,
+				424FF7B618FBA85100B3046C /* LoginViewController.m */,
 			);
 			name = BuiltLoginTutorial;
 			path = FBLogInDemo;
@@ -169,6 +176,7 @@
 		7DA603C418BDC24000ACB80D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				424FF7B818FBBD6400B3046C /* builtio-logo.png */,
 				7DA603C518BDC24000ACB80D /* BuiltLogin-Info.plist */,
 				7DA603C618BDC24000ACB80D /* InfoPlist.strings */,
 				7DA603C918BDC24000ACB80D /* main.m */,
@@ -271,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				429431EA18F7FF4A0077E75D /* BuiltIO.bundle in Resources */,
+				424FF7B918FBBD6400B3046C /* builtio-logo.png in Resources */,
 				7DA603C818BDC24000ACB80D /* InfoPlist.strings in Resources */,
 				7DA603D018BDC24000ACB80D /* Images.xcassets in Resources */,
 			);
@@ -293,7 +302,8 @@
 			files = (
 				7DA603CE18BDC24000ACB80D /* AppDelegate.m in Sources */,
 				7DA603CA18BDC24000ACB80D /* main.m in Sources */,
-				429431EF18F7FFC80077E75D /* BuiltLoginController.m in Sources */,
+				422EFDAD18F969D900E389D4 /* HomeViewController.m in Sources */,
+				424FF7B718FBA85100B3046C /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

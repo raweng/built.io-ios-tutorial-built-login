@@ -9,7 +9,7 @@
 #ifndef FBLogInDemo_Constant_h
 #define FBLogInDemo_Constant_h
 
-    NSString * const kAPI_KEY = @"blt54bb6fddb6a8a4be";
-    NSString * const kAPP_UID = @"photofairapp";
+    NSString * const kAPI_KEY = @"blt2ff1c94fb4d8c7df";
+    NSString * const kAPP_UID = @"builtlogin";
 
 #endif
