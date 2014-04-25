@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E6A3DAAA-0C2B-429C-B8AB-EE4F57EED606</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BuiltLogin</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BB96C3A4-BCCB-4CCE-B9F8-564F87E60880</key>
+		<string>https://github.com/raweng/built.io-ios-tutorial-built-login.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BuiltLoginTutorial/BuiltLogin.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BB96C3A4-BCCB-4CCE-B9F8-564F87E60880</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/raweng/built.io-ios-tutorial-built-login.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BB96C3A4-BCCB-4CCE-B9F8-564F87E60880</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BB96C3A4-BCCB-4CCE-B9F8-564F87E60880</string>
+			<key>IDESourceControlWCCName</key>
+			<string>built</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -13,8 +13,6 @@
 
 @property (strong, nonatomic) UINavigationController *navigationController;
 
-- (void)showLoginView;
-
 + (AppDelegate *)sharedAppDelegate;
 
 + (NSBundle *)frameworkBundle;

@@ -5,13 +5,8 @@
 
 #import "AppDelegate.h"
 #import "Constant.h"
-#import "BuiltLoginController.h"
 #import "HomeViewController.h"
 #import "LoginViewController.h"
-
-@interface AppDelegate()<BuiltUILoginDelegate>
-
-@end
 
 @implementation AppDelegate
 
