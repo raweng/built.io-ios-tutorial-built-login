@@ -10,6 +10,8 @@
 		422EFDAD18F969D900E389D4 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422EFDAC18F969D900E389D4 /* HomeViewController.m */; };
 		424FF7B718FBA85100B3046C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424FF7B618FBA85100B3046C /* LoginViewController.m */; };
 		424FF7B918FBBD6400B3046C /* builtio-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 424FF7B818FBBD6400B3046C /* builtio-logo.png */; };
+		42968B521917D64000F9B650 /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42968B501917D64000F9B650 /* BuiltIO.bundle */; };
+		42968B531917D64000F9B650 /* BuiltIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42968B511917D64000F9B650 /* BuiltIO.framework */; };
 		42EF526F190A94F2008346CB /* Built-Login58.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF526C190A94F2008346CB /* Built-Login58.png */; };
 		42EF5270190A94F2008346CB /* Built-Login80.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF526D190A94F2008346CB /* Built-Login80.png */; };
 		42EF5271190A94F2008346CB /* Built-Login120.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF526E190A94F2008346CB /* Built-Login120.png */; };
@@ -52,6 +54,8 @@
 		424FF7B518FBA85100B3046C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		424FF7B618FBA85100B3046C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		424FF7B818FBBD6400B3046C /* builtio-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "builtio-logo.png"; sourceTree = "<group>"; };
+		42968B501917D64000F9B650 /* BuiltIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BuiltIO.bundle; path = "../built.io-ios-framework/BuiltIO.bundle"; sourceTree = "<group>"; };
+		42968B511917D64000F9B650 /* BuiltIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuiltIO.framework; path = "../built.io-ios-framework/BuiltIO.framework"; sourceTree = "<group>"; };
 		42EF526C190A94F2008346CB /* Built-Login58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Built-Login58.png"; sourceTree = "<group>"; };
 		42EF526D190A94F2008346CB /* Built-Login80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Built-Login80.png"; sourceTree = "<group>"; };
 		42EF526E190A94F2008346CB /* Built-Login120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Built-Login120.png"; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 				7DA603F718BDC2B600ACB80D /* CFNetwork.framework in Frameworks */,
 				7DA603F518BDC2AD00ACB80D /* CoreLocation.framework in Frameworks */,
 				7DA603F118BDC29C00ACB80D /* Social.framework in Frameworks */,
+				42968B531917D64000F9B650 /* BuiltIO.framework in Frameworks */,
 				7DA603EF18BDC28C00ACB80D /* Twitter.framework in Frameworks */,
 				7DA603ED18BDC27E00ACB80D /* SystemConfiguration.framework in Frameworks */,
 				7DA603C218BDC24000ACB80D /* UIKit.framework in Frameworks */,
@@ -156,6 +161,8 @@
 		7DA603BC18BDC24000ACB80D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				42968B501917D64000F9B650 /* BuiltIO.bundle */,
+				42968B511917D64000F9B650 /* BuiltIO.framework */,
 				7DA603FC18BDC2D400ACB80D /* QuartzCore.framework */,
 				7DA603FA18BDC2C900ACB80D /* Security.framework */,
 				7DA603F818BDC2C100ACB80D /* CoreTelephony.framework */,
@@ -302,6 +309,7 @@
 				7DA603C818BDC24000ACB80D /* InfoPlist.strings in Resources */,
 				42EF526F190A94F2008346CB /* Built-Login58.png in Resources */,
 				7DA603D018BDC24000ACB80D /* Images.xcassets in Resources */,
+				42968B521917D64000F9B650 /* BuiltIO.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +458,16 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/viresh/Desktop/raw_project/Built.io/FBLogInDemo,
-					"/Users/sameer/Documents/iOS\\ Projects/builtIO\\ tutorial\\ github/github\\ built/built.io-ios-tutorial-built-login/BuiltLoginTutorial",
+					/Users/sameer/Documents/iOS,
+					Projects/builtIO,
+					tutorial,
+					github/github,
+					"built/built.io-ios-tutorial-built-login/BuiltLoginTutorial",
+					/Users/sameer/Documents/iOS,
+					Projects/builtIO,
+					tutorial,
+					github/github,
+					"built/built.io-ios-tutorial-built-login/built.io-ios-framework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FBLogInDemo/BuiltLogin-Prefix.pch";
@@ -468,7 +485,16 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/viresh/Desktop/raw_project/Built.io/FBLogInDemo,
-					"/Users/sameer/Documents/iOS\\ Projects/builtIO\\ tutorial\\ github/github\\ built/built.io-ios-tutorial-built-login/BuiltLoginTutorial",
+					/Users/sameer/Documents/iOS,
+					Projects/builtIO,
+					tutorial,
+					github/github,
+					"built/built.io-ios-tutorial-built-login/BuiltLoginTutorial",
+					/Users/sameer/Documents/iOS,
+					Projects/builtIO,
+					tutorial,
+					github/github,
+					"built/built.io-ios-tutorial-built-login/built.io-ios-framework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FBLogInDemo/BuiltLogin-Prefix.pch";
