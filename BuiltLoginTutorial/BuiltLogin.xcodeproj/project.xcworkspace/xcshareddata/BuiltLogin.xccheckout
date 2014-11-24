@@ -10,43 +10,43 @@
 	<string>BuiltLogin</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>BB96C3A4-BCCB-4CCE-B9F8-564F87E60880</key>
+		<key>A26C674C4950E596FEB6F3B7EFBF2CF100602A77</key>
 		<string>https://github.com/raweng/built.io-ios-tutorial-built-login.git</string>
-		<key>F077D4F7-BFDD-41E4-8078-F4BC2A7E414B</key>
+		<key>ACD166E1E08D0FB272C4B42C03503CFA623DE62B</key>
 		<string>https://github.com/raweng/built.io-ios-framework</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>BuiltLoginTutorial/BuiltLogin.xcodeproj/project.xcworkspace</string>
+	<string>BuiltLoginTutorial/BuiltLogin.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>BB96C3A4-BCCB-4CCE-B9F8-564F87E60880</key>
+		<key>A26C674C4950E596FEB6F3B7EFBF2CF100602A77</key>
 		<string>../../..</string>
-		<key>F077D4F7-BFDD-41E4-8078-F4BC2A7E414B</key>
-		<string>../../../built.io-ios-framework</string>
+		<key>ACD166E1E08D0FB272C4B42C03503CFA623DE62B</key>
+		<string>../../..built.io-ios-framework/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/raweng/built.io-ios-tutorial-built-login.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>BB96C3A4-BCCB-4CCE-B9F8-564F87E60880</string>
+	<string>A26C674C4950E596FEB6F3B7EFBF2CF100602A77</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>BB96C3A4-BCCB-4CCE-B9F8-564F87E60880</string>
+			<string>ACD166E1E08D0FB272C4B42C03503CFA623DE62B</string>
 			<key>IDESourceControlWCCName</key>
-			<string>built</string>
+			<string>built.io-ios-framework</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F077D4F7-BFDD-41E4-8078-F4BC2A7E414B</string>
+			<string>A26C674C4950E596FEB6F3B7EFBF2CF100602A77</string>
 			<key>IDESourceControlWCCName</key>
-			<string>built.io-ios-framework</string>
+			<string>built.io-ios-tutorial-built-login</string>
 		</dict>
 	</array>
 </dict>
