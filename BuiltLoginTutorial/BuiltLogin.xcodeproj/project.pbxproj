@@ -11,9 +11,6 @@
 		422EFDAD18F969D900E389D4 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422EFDAC18F969D900E389D4 /* HomeViewController.m */; };
 		424FF7B718FBA85100B3046C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424FF7B618FBA85100B3046C /* LoginViewController.m */; };
 		424FF7B918FBBD6400B3046C /* builtio-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 424FF7B818FBBD6400B3046C /* builtio-logo.png */; };
-		42EF526F190A94F2008346CB /* Built-Login58.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF526C190A94F2008346CB /* Built-Login58.png */; };
-		42EF5270190A94F2008346CB /* Built-Login80.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF526D190A94F2008346CB /* Built-Login80.png */; };
-		42EF5271190A94F2008346CB /* Built-Login120.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF526E190A94F2008346CB /* Built-Login120.png */; };
 		7DA603BE18BDC24000ACB80D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA603BD18BDC24000ACB80D /* Foundation.framework */; };
 		7DA603C018BDC24000ACB80D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA603BF18BDC24000ACB80D /* CoreGraphics.framework */; };
 		7DA603C218BDC24000ACB80D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA603C118BDC24000ACB80D /* UIKit.framework */; };
@@ -32,6 +29,12 @@
 		7DA603FD18BDC2D400ACB80D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA603FC18BDC2D400ACB80D /* QuartzCore.framework */; };
 		BAEA7F3D1918E76400011DD7 /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BAEA7F3B1918E76400011DD7 /* BuiltIO.bundle */; };
 		BAEA7F3E1918E76400011DD7 /* BuiltIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEA7F3C1918E76400011DD7 /* BuiltIO.framework */; };
+		FAA946061A9EE72100677E45 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA946051A9EE72100677E45 /* CoreFoundation.framework */; };
+		FAA946081A9EE72800677E45 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA946071A9EE72800677E45 /* CoreData.framework */; };
+		FAA9460A1A9EE75F00677E45 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA946091A9EE75F00677E45 /* libsqlite3.dylib */; };
+		FAA9460C1A9EE76E00677E45 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA9460B1A9EE76E00677E45 /* libc++.dylib */; };
+		FAA9460E1A9EE79100677E45 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA9460D1A9EE79100677E45 /* libicucore.dylib */; };
+		FAA946101A9EE87600677E45 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA9460F1A9EE87600677E45 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +56,6 @@
 		424FF7B518FBA85100B3046C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		424FF7B618FBA85100B3046C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		424FF7B818FBBD6400B3046C /* builtio-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "builtio-logo.png"; sourceTree = "<group>"; };
-		42EF526C190A94F2008346CB /* Built-Login58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Built-Login58.png"; sourceTree = "<group>"; };
-		42EF526D190A94F2008346CB /* Built-Login80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Built-Login80.png"; sourceTree = "<group>"; };
-		42EF526E190A94F2008346CB /* Built-Login120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Built-Login120.png"; sourceTree = "<group>"; };
 		7DA603BA18BDC24000ACB80D /* BuiltLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuiltLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA603BD18BDC24000ACB80D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7DA603BF18BDC24000ACB80D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -68,9 +68,6 @@
 		7DA603CD18BDC24000ACB80D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7DA603CF18BDC24000ACB80D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7DA603D618BDC24000ACB80D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		7DA603DE18BDC24000ACB80D /* BuiltLoginTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuiltLoginTests-Info.plist"; sourceTree = "<group>"; };
-		7DA603E018BDC24000ACB80D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7DA603E218BDC24000ACB80D /* FBLogInDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBLogInDemoTests.m; sourceTree = "<group>"; };
 		7DA603EC18BDC27E00ACB80D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7DA603EE18BDC28C00ACB80D /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		7DA603F018BDC29C00ACB80D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
@@ -80,9 +77,14 @@
 		7DA603F818BDC2C100ACB80D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		7DA603FA18BDC2C900ACB80D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		7DA603FC18BDC2D400ACB80D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		7DA6040418BDC82900ACB80D /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		BAEA7F3B1918E76400011DD7 /* BuiltIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BuiltIO.bundle; path = "../built.io-ios-framework/BuiltIO.bundle"; sourceTree = "<group>"; };
 		BAEA7F3C1918E76400011DD7 /* BuiltIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuiltIO.framework; path = "../built.io-ios-framework/BuiltIO.framework"; sourceTree = "<group>"; };
+		FAA946051A9EE72100677E45 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		FAA946071A9EE72800677E45 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FAA946091A9EE75F00677E45 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FAA9460B1A9EE76E00677E45 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		FAA9460D1A9EE79100677E45 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		FAA9460F1A9EE87600677E45 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA946101A9EE87600677E45 /* MobileCoreServices.framework in Frameworks */,
+				FAA9460E1A9EE79100677E45 /* libicucore.dylib in Frameworks */,
+				FAA9460C1A9EE76E00677E45 /* libc++.dylib in Frameworks */,
+				FAA9460A1A9EE75F00677E45 /* libsqlite3.dylib in Frameworks */,
+				FAA946081A9EE72800677E45 /* CoreData.framework in Frameworks */,
+				FAA946061A9EE72100677E45 /* CoreFoundation.framework in Frameworks */,
 				7DA603F318BDC2A400ACB80D /* Accounts.framework in Frameworks */,
 				7DA603C018BDC24000ACB80D /* CoreGraphics.framework in Frameworks */,
 				7DA603FD18BDC2D400ACB80D /* QuartzCore.framework in Frameworks */,
@@ -133,29 +141,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		42EF526A190A94BE008346CB /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				42EF526B190A94D1008346CB /* AppIcons */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		42EF526B190A94D1008346CB /* AppIcons */ = {
-			isa = PBXGroup;
-			children = (
-				42EF526C190A94F2008346CB /* Built-Login58.png */,
-				42EF526D190A94F2008346CB /* Built-Login80.png */,
-				42EF526E190A94F2008346CB /* Built-Login120.png */,
-			);
-			path = AppIcons;
-			sourceTree = "<group>";
-		};
 		7DA603B118BDC24000ACB80D = {
 			isa = PBXGroup;
 			children = (
 				7DA603C318BDC24000ACB80D /* BuiltLoginTutorial */,
-				7DA603DC18BDC24000ACB80D /* FBLogInDemoTests */,
 				235778B31A23293B004CDFED /* BuiltLoginTests */,
 				7DA603BC18BDC24000ACB80D /* Frameworks */,
 				7DA603BB18BDC24000ACB80D /* Products */,
@@ -174,6 +163,12 @@
 		7DA603BC18BDC24000ACB80D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAA9460F1A9EE87600677E45 /* MobileCoreServices.framework */,
+				FAA9460D1A9EE79100677E45 /* libicucore.dylib */,
+				FAA9460B1A9EE76E00677E45 /* libc++.dylib */,
+				FAA946091A9EE75F00677E45 /* libsqlite3.dylib */,
+				FAA946071A9EE72800677E45 /* CoreData.framework */,
+				FAA946051A9EE72100677E45 /* CoreFoundation.framework */,
 				BAEA7F3B1918E76400011DD7 /* BuiltIO.bundle */,
 				BAEA7F3C1918E76400011DD7 /* BuiltIO.framework */,
 				7DA603FC18BDC2D400ACB80D /* QuartzCore.framework */,
@@ -196,19 +191,16 @@
 		7DA603C318BDC24000ACB80D /* BuiltLoginTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				42EF526A190A94BE008346CB /* Resources */,
 				7DA603CC18BDC24000ACB80D /* AppDelegate.h */,
 				7DA603CD18BDC24000ACB80D /* AppDelegate.m */,
 				7DA603CF18BDC24000ACB80D /* Images.xcassets */,
 				7DA603C418BDC24000ACB80D /* Supporting Files */,
-				7DA6040418BDC82900ACB80D /* Constant.h */,
 				422EFDAB18F969D900E389D4 /* HomeViewController.h */,
 				422EFDAC18F969D900E389D4 /* HomeViewController.m */,
 				424FF7B518FBA85100B3046C /* LoginViewController.h */,
 				424FF7B618FBA85100B3046C /* LoginViewController.m */,
 			);
-			name = BuiltLoginTutorial;
-			path = FBLogInDemo;
+			path = BuiltLoginTutorial;
 			sourceTree = "<group>";
 		};
 		7DA603C418BDC24000ACB80D /* Supporting Files */ = {
@@ -219,24 +211,6 @@
 				7DA603C618BDC24000ACB80D /* InfoPlist.strings */,
 				7DA603C918BDC24000ACB80D /* main.m */,
 				7DA603CB18BDC24000ACB80D /* BuiltLogin-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		7DA603DC18BDC24000ACB80D /* FBLogInDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				7DA603E218BDC24000ACB80D /* FBLogInDemoTests.m */,
-				7DA603DD18BDC24000ACB80D /* Supporting Files */,
-			);
-			path = FBLogInDemoTests;
-			sourceTree = "<group>";
-		};
-		7DA603DD18BDC24000ACB80D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7DA603DE18BDC24000ACB80D /* BuiltLoginTests-Info.plist */,
-				7DA603DF18BDC24000ACB80D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -324,11 +298,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42EF5270190A94F2008346CB /* Built-Login80.png in Resources */,
 				424FF7B918FBBD6400B3046C /* builtio-logo.png in Resources */,
-				42EF5271190A94F2008346CB /* Built-Login120.png in Resources */,
 				7DA603C818BDC24000ACB80D /* InfoPlist.strings in Resources */,
-				42EF526F190A94F2008346CB /* Built-Login58.png in Resources */,
 				7DA603D018BDC24000ACB80D /* Images.xcassets in Resources */,
 				BAEA7F3D1918E76400011DD7 /* BuiltIO.bundle in Resources */,
 			);
@@ -371,14 +342,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				7DA603C718BDC24000ACB80D /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		7DA603DF18BDC24000ACB80D /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7DA603E018BDC24000ACB80D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -514,8 +477,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FBLogInDemo/BuiltLogin-Prefix.pch";
-				INFOPLIST_FILE = "FBLogInDemo/BuiltLogin-Info.plist";
+				GCC_PREFIX_HEADER = "BuiltLoginTutorial/BuiltLogin-Prefix.pch";
+				INFOPLIST_FILE = "BuiltLoginTutorial/BuiltLogin-Info.plist";
 				PRODUCT_NAME = BuiltLogin;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -528,8 +491,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FBLogInDemo/BuiltLogin-Prefix.pch";
-				INFOPLIST_FILE = "FBLogInDemo/BuiltLogin-Info.plist";
+				GCC_PREFIX_HEADER = "BuiltLoginTutorial/BuiltLogin-Prefix.pch";
+				INFOPLIST_FILE = "BuiltLoginTutorial/BuiltLogin-Info.plist";
 				PRODUCT_NAME = BuiltLogin;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -546,6 +509,7 @@
 				235778BC1A23293C004CDFED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DA603B518BDC24000ACB80D /* Build configuration list for PBXProject "BuiltLogin" */ = {
 			isa = XCConfigurationList;
